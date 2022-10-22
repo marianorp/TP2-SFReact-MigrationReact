@@ -5,6 +5,7 @@ import Home from "./components/Home"
 import Cards from "./components/Cards"
 import Table from "./components/Table"
 import Form from "./components/Form"
+import Api from "./components/Api"
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
           <Route exact path="/form" element={<Form />} />
 
 
-          {/* <Route exact path="/rick-morty" element={<Api />} /> */}
+          <Route exact path="/api" element={<Api />} />
         </Routes>
       </BrowserRouter>
     </div>

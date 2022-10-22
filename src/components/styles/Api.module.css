@@ -3,6 +3,14 @@
 .container {
     background-color: #1D3537;
     text-align: center;
+    height: 100vh;
+    display: flex;
+}
+
+h1 {
+    color: #10BC10;
+    padding: 30px;
+    font-size: 40px;
 }
 
 
@@ -17,11 +25,7 @@
     float: left;  /*pone los elementos al costado*/ 
 }
 
-h1 {
-    color: #10BC10;
-    padding: 30px;
-    font-size: 40px;
-}
+
 
 h3 {
     background-color: #1E8AD3;
