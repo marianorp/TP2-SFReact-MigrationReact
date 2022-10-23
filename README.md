@@ -1,3 +1,21 @@
+# Migracion a React de TP 1
+
+
+```sh
+Consumo de Api Rick and Morty, tablas, formulario de contacto, maquetado.
+```
+
+
+
+
+
+
+
+
+
+
+______
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
