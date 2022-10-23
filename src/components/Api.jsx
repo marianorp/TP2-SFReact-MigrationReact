@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Cards from "./Cards";
-// import fondo from "../img/rick-y-morty-retrowave-synthwave_7680x4320_xtrafondos.com.jpg";
 import styles from "./styles/Api.module.css";
 
 
@@ -20,33 +19,18 @@ function Api() {
 
 
   return (
-    // <div>
-    //   <header>
-    //     <Link to="/home">
-    //       <button className="boton__back">BACK</button>
-    //     </Link>
-    //   </header>{" "}
-    //   <div className="rick" id="rick">
-    //     {data.length !== 0 ? data.map((e) => <Cards image={e.image} name={e.name} status={e.status} species={e.species} />) : null}
-    //   </div>
-    //   <div className="fondo__home">
-    //     <img className="img__fondo" src={fondo} alt="" />
-    //   </div>
-    // </div>
-
-
     <div className={styles.container}>
-    
-        <h1>Rick and Morty Cards</h1>
-        <div id="fetch-cards">
-        {data.length !== 0 ? data.map((e) => <Cards image={e.image} name={e.name} status={e.status} species={e.species} />) : null}
-        </div>   
-        <div class="arrow-button">
-            <a href="#"><span class="fas fa-angle-up"></span></a>
+      <div className={styles.title}>
+          <h1>Rick and Morty Cards</h1>
         </div>
+        <div className="cards">
+          {data.length !== 0 ? data.map((e) => <Cards image={e.image} name={e.name} status={e.status} species={e.species} gender={e.gender} origin={e.origin} location={e.location} />) : null}
+        </div>   
+        {/* <div class="arrow-button">
+            <a href=""><span class="fas fa-angle-up"></span></a>
+        </div> */}
 
     </div>
-
 
   );
 }

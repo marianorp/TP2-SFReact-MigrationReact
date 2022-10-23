@@ -3,18 +3,20 @@
 .container {
     background-color: #1D3537;
     text-align: center;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
-h1 {
+.container .title h1 {
     color: #10BC10;
     padding: 30px;
     font-size: 40px;
 }
 
 
-.cardsrm {
+.one_card {
     border-radius: 30px;
     max-width: 400px;
     max-height: 585px;
@@ -23,9 +25,8 @@ h1 {
     font-size: 15px;
     background: -webkit-linear-gradient( #043BB1 , #10BC10);
     float: left;  /*pone los elementos al costado*/ 
+    
 }
-
-
 
 h3 {
     background-color: #1E8AD3;

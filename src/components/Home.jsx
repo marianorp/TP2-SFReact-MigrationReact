@@ -19,7 +19,7 @@ function Home() {
         <h1 className={styles.title}> TRABAJO PRACTICO Nº2 MIGRACION A REACT</h1>
         <div className={styles.buttons}>
             <div className={styles.Cards}>
-                <Link to={"/cards"}>
+                <Link to={"/api"}>
                     <div className={styles[`img-cards`]}>
                         <img src={buttoncards} alt=""/>
                     </div>
