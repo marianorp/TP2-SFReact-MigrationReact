@@ -1,10 +1,3 @@
-// import Api from "./Api";
-// import Form from "./Form";
-// import User from "./users";
-// import "../styles/home.css";
-// import home from "../img/home.jpg";
-// import { Link } from "react-router-dom";
-
 import { Link } from "react-router-dom";
 import styles from "./styles/Home.module.css"
 import buttoncards from "../images/buttoncards.jpg";
@@ -27,7 +20,7 @@ function Home() {
                 </Link>
             </div>
             <div className={styles.Table}>
-                <Link to={"/table"}>
+                <Link to={"/User"}>
                     <div id="img-table">
                         <img src={buttontable} alt=""/>
                     </div>

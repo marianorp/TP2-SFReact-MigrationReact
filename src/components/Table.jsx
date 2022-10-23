@@ -1,11 +1,14 @@
-// import styles from "./styles/Table.module.css"
-
-
-
-// function Table() {
-//     return (
-       
-//     );
-//   }
+function Table( {id, name, email, address, phone, company} ) {
+    return (
+        <tr>
+            <td>{id}</td>
+            <td>{name}</td>
+            <td>{email}</td>
+            <td>{address}</td>
+            <td>{phone}</td>
+            <td>{company}</td>
+        </tr>
+    );
+  }
   
-//   export default Table;
+  export default Table;

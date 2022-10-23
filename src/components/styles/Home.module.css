@@ -8,10 +8,11 @@
 
 
 .container {
-    background: url(https://i.postimg.cc/2SghLLs7/rick-y-morty-paisaje-6000x3000-xtrafondos-com.jpg) no-repeat top / cover;
+    background: url(../../images/home.jpg) no-repeat top / cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
     margin: auto;
     display: flex;
